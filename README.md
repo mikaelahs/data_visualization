@@ -13,7 +13,7 @@ To run this code, please enter the following commands in R:
 
 ```
 library(shiny)
-shiny::runGitHub("mikaelahs/data_visualization/shiny_apps/life_expectancy_vs_fertility_rate", subdir = "")
+shiny::runGitHub("mikaelahs/data_visualization", subdir = "shiny_apps/life_expectancy_vs_fertility_rate")
 ```
 
 ## facebook_metrics
@@ -30,6 +30,6 @@ To run this code, please enter the following commands in R:
 
 ```
 library(shiny)
-shiny::runGitHub("mikaelahs/data_visualization/shiny_apps/facebook_metrics", subdir = "")
+shiny::runGitHub("mikaelahs/data_visualization", subdir = "shiny_apps/facebook_metrics")
 ```
 
