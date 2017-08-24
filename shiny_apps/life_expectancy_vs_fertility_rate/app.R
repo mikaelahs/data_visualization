@@ -3,10 +3,10 @@ library(ggvis)
 library(reshape2)
 
 # note: i deleted the top four rows and trailing empty columns in csv so i could read it in properly
-life <- read.csv('~/Documents/MSAN 622/HW 2/API_SP.DYN.LE00.IN_DS2_en_csv_v2.csv', sep="\t")
-fert <- read.csv('~/Documents/MSAN 622/HW 2/API_SP.DYN.TFRT.IN_DS2_en_csv_v2.csv', sep="\t")
-cont <- read.csv('~/Documents/MSAN 622/HW 2/Metadata_Country_API_SP.DYN.LE00.IN_DS2_en_csv_v2.csv')
-pop <- read.csv('~/Documents/MSAN 622/HW 2/API_SP.POP.TOTL_DS2_en_csv_v2.csv')
+life <- read.csv('API_SP.DYN.LE00.IN_DS2_en_csv_v2.csv', sep="\t")
+fert <- read.csv('API_SP.DYN.TFRT.IN_DS2_en_csv_v2.csv', sep="\t")
+cont <- read.csv('Metadata_Country_API_SP.DYN.LE00.IN_DS2_en_csv_v2.csv')
+pop <- read.csv('API_SP.POP.TOTL_DS2_en_csv_v2.csv')
 
 # unclassified row 
 life <- life[-109,-c(2,3,4)]
